@@ -23,21 +23,25 @@ Se puede correr cualquiera de los proyectos de manera gráfica usando Visual Stu
 
 ```bash
 solution/api/
+```
 
+```bash
 dotnet run 
 ```
 **Swagger**:
-https://localhost:**PORT**/swagger/index.html
+https://localhost:PORT/swagger/index.html
 
 **Api**:
-https://localhost:**PORT**/api/insurance
+https://localhost:PORT/api/insurance
 
 Enviar en los headers {token: 1234} 
 
 #### Api-Test
+
 ```bash
 solution/api-test/
-
+```
+```bash
 dotnet test 
 ```
 
